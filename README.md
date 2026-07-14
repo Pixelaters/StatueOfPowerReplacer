@@ -18,3 +18,19 @@ Another reason the mod could break could be due to Palworld renaming their files
 
 here is a temporary link to it but it may be broken in the future  
 https://discord.gg/bbeh44bBub
+
+# How I fixed to work with 1.0
+Install FModel, Unreal engine 5.1.1, UAssetGUI, WWise
+configure everything according to the documentation on the palworld modding guide.
+After exporting the text files in fmodel open it in UAssetGUI
+the files i needed to edit includes:
+
+DT_BuildObjectDescText_Common.uasset
+DT_HelpGuideDescText.uasset
+DT_ItemDescription Text_Common.uasset
+DT_NpcTalkText_Common.uasset
+DT_TechnologyDescText_Common.uasset
+DT_TutorialMessage_Text.uasset
+DT_UI_Common_Text_Common.uasset
+
+you'll have to open them one by one and save each time you open another as doing it without saving will discard any changes. Search for terms such as "offer" or "statue of power" and replace it.
