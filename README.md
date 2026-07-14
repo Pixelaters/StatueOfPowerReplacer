@@ -34,3 +34,7 @@ DT_TutorialMessage_Text.uasset
 DT_UI_Common_Text_Common.uasset
 
 you'll have to open them one by one and save each time you open another as doing it without saving will discard any changes. Search for terms such as "offer" or "statue of power" and replace it.
+
+once thats done drag the pal folder from this github repo in the Pal/Content folder into Pal/Content in the new mod folder you created this will replace the assets.
+Then run the  unrealpal-with-compression.bat script on the new folder.
+and you done you have your mod file
